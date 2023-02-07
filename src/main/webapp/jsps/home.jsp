@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Soma's Training. </h1>
+<h1 align="center">Welcome to Mithun Technologies </h1>
 <h1 align="center"> Mithun Technologies- a Job Assitance Job Support also..Teaching Real Time scnerios</h1>
 <hr>
 <br>
