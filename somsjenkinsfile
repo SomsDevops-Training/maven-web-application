@@ -16,6 +16,10 @@ stage ('buildfrommaven')
 {
 sh "${mavenHome}/bin/mvn clean package"
 }
+stage ('TriggerDownstreamJob')
+{
+buld job: 'pipeline-declarativeway'
+}
 
 /*stage ('sonarqubereport')
 {
