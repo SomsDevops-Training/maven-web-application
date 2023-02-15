@@ -7,9 +7,6 @@ pipeline{
     options {
   timestamps()
 }
-triggers {
-  upstream 'pipeline-scriptedway'
-}
     //All stages starts from here
     stages{
                 //Running checkout code for git
