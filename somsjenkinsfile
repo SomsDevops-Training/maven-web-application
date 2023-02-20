@@ -1,7 +1,7 @@
 node 
 {
 try{
-slacksendnotification('STARTED')
+sendSlackNotifications('STARTED')
 echo "Job Name is: ${env.JOB_NAME}"
 echo "Build Number is: ${env.BUILD_NUMBER}"
 echo "Build url is: ${env.BUILD_URL}"
@@ -42,7 +42,7 @@ currentBuild.result = "FAILED"
 throw e
 }
 finally{
-slacksendnotification(currentBuild.result)
+sendSlackNotifications(currentBuild.result)
 }
 }
 
